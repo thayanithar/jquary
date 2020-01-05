@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<title>UkiLife</title>
+
+<style>
+#rcorners1 {
+  border-radius: 10px;
+  background: lightblue;
+  padding: 30px;
+  width: 200px;
+  height: 200px;
+  font-size: 10px;
+
+
+}
+
+#rcorners2 {
+  border-radius: 10px;
+  background: #c3c7a7;
+  padding: 30px;
+  width: 30%;
+  height: 150px;
+  font-size: 10px;
+  float:left;
+}
+
+#rcorners3 {
+  border-radius: 10px;
+  background: #c3c7a7;
+  padding: 30px;
+  width: 32%;
+  height: 150px;
+  font-size: 10px;
+  float:right;
+  margin:10px 0px 10px 10px
+}
+
+
+
+#a1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+
+#a2{
+     display: inline;
+  }
+
+
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:lightblue;
+   color: black;
+   text-align: center;
+}
+
+mark {
+  background-color: lightblue;
+  color: black;
+}
+
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("ul").hide();
+  });
+  $("#show").click(function(){
+    $("ul").show();
+  });
+  $("p").click(function(){
+    $("#test1").text("Hai Uki!");
+  });
+  $("button").click(function(){
+    $("p1").toggle();
+  });
+});
+</script>
+</head>
+
+<body>
+<p>
+<center>
+
+        <a href="index.html"  style="text-decoration: none;">Home |</a>
+        <a href="form.html"   style="text-decoration: none;"  target=_blank >form |</a>
+        <a href="Timetable.html" style="text-decoration: none;"  target=_blank>Timetable</a>
+
+
+</center>
+
+<p align="right"><a href="index.html"><input type="button" Name="home" value="Home"></a>
+
+<center> <img src="Uki.png" alt="Uki logo"> </center><p>
+
+<p style="text-align:center;background-color:powderblue;" id=test1>Welcome to uki!</p>
+
+<center>
+  <a href="" onMouseOver="alert('The Page Says You entered to Uki!');return true;">
+<div style="float: center; width: 20%; height: 150px; background-color:lightblue"  id="rcorners1", id=test2>
+  <h2>Welcome to Uki:</a> Stepping Stone To Tech Life</h2>
+  <p>Uki is a coding school by Yarl IT Hub, which offers six
+     months-long intensive, in-class training program that trains
+      students to acquire skills needed to join tech
+      companies as interns/ junior developers or become entrepreneurs.
+</p>
+</div>
+</center>
+
+
+
+<div1 id="rcorners2">
+  <h2><mark >Courses</mark></h2>
+  <p>Uki is a life-changing program with a proven
+     track record of enabling those who had completed
+      secondary school education to join the tech industry.</p>
+        <ul>
+            <li>Programming</li>
+            <li>Basic Business Skills</li>
+            <li>English</li>
+            <li>Personal Coaching</li>
+       </ul>
+       <button id="hide">Hide</button>
+       <button id="show">Show</button>
+</div1>
+
+
+
+
+<div id="rcorners3">
+  <h2><mark>Coding Accelerator Program</mark></h2>
+  <p1>Learn to code in 6 months (Full time)<br>
+Uki is a life-changing program with a proven track record of enabling those who had completed secondary school education to join the tech industry. The outcome-based learning experience at Uki is a meticulously designed program which has been developed by tech industry practitioners and skilled teachers. It ensures a transformational development of the technical skills, language skills, business skills and interpersonal skills of each student who completes the course.
+</p1><br>
+<button>Details </button>
+
+</div>
+<b/>
+
+    <p> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <div class="footer">
+  <p>2019 © Uki. All Rights Reserved. An initiative by Yarl IT Hub</p>
+</div>
+    </p>
+
+</body>
+</html>
